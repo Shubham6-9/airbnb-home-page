@@ -47,13 +47,13 @@ nav>div:last-child a{
 }
 #form{
     width: 360px;
-    height: 350px;
+    height: 400px;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
     position: relative;
     top: 40px;
-    left: -310px;
+    left: -290px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     z-index: 9;
 }
@@ -68,12 +68,12 @@ nav>div:last-child a{
     font-size: 38px;
 }
 #bg-img{
-    width: 60%;
-    height: 500px;
+    width: 68%;
+    height: 530px;
     background-image: url("./assets/images/background-img.webp");
     background-position: right;
-    background-size: contain;
-    margin-left: 30%;
+    background-size: cover;
+    margin-left: 25%;
     margin-right: 5%;
     margin-top: 4%;
     border-radius: 8px;
@@ -103,4 +103,70 @@ nav>div:last-child a{
     color: white;
     border-radius: 8px;
     margin-top: 10px;
+}
+.out{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.out>div{
+    height: 100%;
+    width: 33%;
+    margin: 0px 40px;
+}
+.icon-img{
+    height: 12%;
+    width: 7%;
+    object-fit: contain;
+}
+.head{
+    font-size: 25px;
+    color: #222222;
+}
+.text{
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+    color: #222222;
+}
+#h2{
+    margin-left: 60px;
+    margin-bottom: -80px;
+    font-size: 35px;
+}
+#out1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#out1>div{
+    height: 100%;
+    width: 33%;
+    margin: 0px 9px;
+}
+#out1 a{
+    text-decoration: none;
+}
+#out1 h5{
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    color: #222222;
+}
+#out1 p{
+    font-size: 18px;
+    position: relative;
+    bottom: 60px;
+    color: #717171ff;
+}
+.out2 h3{
+    font-size: 30px;
+    margin-left: 60px;
+}
+.out2 p{
+    margin-top: -20px;
+    font-size: 18px;
+    margin-left: 60px;
 }
