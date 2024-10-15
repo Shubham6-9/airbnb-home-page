@@ -1,0 +1,106 @@
+nav{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;  
+    z-index: 10;
+}
+nav>div{
+    width: 40%;
+    padding: 0px 40px;
+}
+nav>div:first-child a{
+    text-decoration: none;
+    color: red;
+    width: 20%;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+#logo::after{
+    content: "airbnb";
+    margin-left: 30px;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+    background-image: url("./assets/images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+}
+nav>div:last-child{
+    display: flex; 
+    justify-content: end;
+    align-items: center;
+}
+nav>div:last-child a{
+    color: black;
+    margin: 0px 15px;
+    font-size: 17px;
+}
+#form{
+    width: 360px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: -310px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    z-index: 9;
+}
+#form>p{
+    font-size: 17px;
+    color: #717171ff;
+}
+#form form input{
+    border: 0px;
+}
+#form h2{
+    font-size: 38px;
+}
+#bg-img{
+    width: 60%;
+    height: 500px;
+    background-image: url("./assets/images/background-img.webp");
+    background-position: right;
+    background-size: contain;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 4%;
+    border-radius: 8px;
+}
+.line{
+    display: flex;
+    margin: 8px 0px;
+}
+.in{
+    height: 22px;
+    width: 96.5%;
+    border-radius: 10px;
+    padding: 18px 0px 0px 10px;
+}
+.in2{
+    height: 22px;
+    width: 93%;
+    border-radius: 10px;
+    padding: 18px 0px 0px 10px;
+    margin: 0px -0.5px;
+}
+#sub{
+    height: 40px;
+    width: 100%;
+    background-color: #E31C5F;
+    border: 0px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+}
