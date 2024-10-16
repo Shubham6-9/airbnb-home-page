@@ -130,32 +130,32 @@ nav>div:last-child a{
     font-size: 20px;
     color: #222222;
 }
-#h2{
+.h2{
     margin-left: 60px;
     margin-bottom: -80px;
     font-size: 35px;
 }
-#out1{
+.out1{
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
     padding: 50px;
 }
-#out1>div{
+.out1>div{
     height: 100%;
     width: 33%;
     margin: 0px 9px;
 }
-#out1 a{
+.out1 a{
     text-decoration: none;
 }
-#out1 h5{
+.out1 h5{
     font-size: 20px;
     position: relative;
     bottom: 30px;
     color: #222222;
 }
-#out1 p{
+.out1 p{
     font-size: 18px;
     position: relative;
     bottom: 60px;
@@ -207,4 +207,56 @@ nav>div:last-child a{
     position: relative;
     top: -11%;
     color: #222222;
+}
+#out3{
+    padding: 50px;
+    background-color: #f7f7f7ff;
+    margin-top: 5%;
+}
+#out3>p{
+    font-size: 18px;
+    margin-top: -8px;
+    color: #717171ff;
+}
+.line{
+    display: flex;
+    gap: 1%;
+}
+.line>div{
+    width: 24%;
+}
+.line>div a{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgba(113, 113, 113, 0.718);
+}
+.line p{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+footer{
+    height: 60px;
+    display: flex;
+    padding: 0px 30px;
+    background-color: rgb(245, 243, 243);
+}
+footer div{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    height: 100%;
+    width: 50%;
+}
+footer div:last-child{
+    justify-content: end;
+}
+footer a{
+    text-decoration: none;
+    color: black;
 }
