@@ -104,13 +104,13 @@ nav>div:last-child a{
     border-radius: 8px;
     margin-top: 10px;
 }
-.out{
+#out{
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
     padding: 50px;
 }
-.out>div{
+#out>div{
     height: 100%;
     width: 33%;
     margin: 0px 40px;
@@ -161,12 +161,50 @@ nav>div:last-child a{
     bottom: 60px;
     color: #717171ff;
 }
-.out2 h3{
-    font-size: 30px;
+.h3{
+    font-size: 33px;
     margin-left: 60px;
 }
-.out2 p{
-    margin-top: -20px;
-    font-size: 18px;
+.para{
+    font-size: 20px;
     margin-left: 60px;
+    margin-top: -20px;
+}
+.out2{
+    padding: 0% 4%;
+    display: flex;
+    gap: 2%;
+}
+.out2>div{
+    width: 23%;
+}
+.out2>div a{
+    text-decoration: none;
+}
+.kit-img{
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.label{
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+    position: relative;
+    top: -2%;
+}
+.des{
+    font-size: 16px;
+    color: #717171ff;
+    position: relative;
+    top: -5%;
+}
+.price{
+    display: inline-block;
+    color: #717171ff;
+}
+.out2>div div:last-child{
+    position: relative;
+    top: -11%;
+    color: #222222;
 }
